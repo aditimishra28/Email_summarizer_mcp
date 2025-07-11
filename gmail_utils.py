@@ -48,3 +48,32 @@ def get_recent_emails(service, max_results=5):
             'body': body
         })
     return emails
+def search_emails_by_sender(service, sender_email, max_results=5):
+    """
+    Search emails by sender's email address and return top emails.
+    """
+    results = service.users().messages().list(
+        userId='me',
+        q=f'from:{sender_email}',
+        maxResults=max_results
+    ).execute()
+
+    messages = results.get('messages', [])
+    emails = []
+
+    for msg in messages:
+        txt = service.users().messages().get(userId='me', id=msg['id']).execute()
+        payload = txt['payload']
+        headers = payload.get("headers")
+        subject = next((h['value'] for h in headers if h['name'] == 'Subject'), '(No Subject)')
+
+        # Extract snippet as content preview
+        snippet = txt.get('snippet', '')
+
+        emails.append({
+            'subject': subject,
+            'snippet': snippet
+        })
+
+    return emails
+
