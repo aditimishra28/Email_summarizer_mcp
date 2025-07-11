@@ -138,17 +138,6 @@ Pull requests are welcome. For major changes, open an issue first to discuss wha
 
 ---
 
-> Built with ❤️ by [Your Name](https://github.com/yourusername).
+> Built with ❤️ by [Aditi Mishra](https://github.com/aditimishra28).
 
-```
-
----
-
-### 🔥 **Next Steps**
-
-✅ Replace **`yourusername`** with your GitHub username  
-✅ Add a **demo GIF or screenshot** for better visual impact  
-✅ Push to GitHub
-
-If you want, I can draft your **LinkedIn announcement post** tomorrow to showcase this project professionally. Let me know.
 ```
