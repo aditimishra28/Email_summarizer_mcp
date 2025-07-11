@@ -1,6 +1,4 @@
-Here is your **clean, professional, and beginner-friendly `README.md`** draft for GitHub ✨
 
----
 
 ````markdown
 # ✉️ Email Summarizer MCP
