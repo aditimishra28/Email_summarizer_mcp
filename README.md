@@ -3,28 +3,28 @@
 ````markdown
 # ✉️ Email Summarizer MCP
 
-A simple yet powerful Email Summarizer that connects directly to your Gmail inbox, fetches recent emails, and summarizes them using state-of-the-art LLM summarization models.
+A simple yet powerful Email Summarizer that connects directly to your Gmail inbox, fetches recent emails, and summarizes them using state of the art LLM summarization models.
 
 ---
 
-## 🚀 **Features**
+## 🚀 Features
 
 ✅ Authenticate securely with your Gmail  
 ✅ View your recent emails in the app  
 ✅ Summarize any email to extract key points instantly  
-✅ Built using **Streamlit**, **Google Gmail API**, and **Hugging Face Transformers**
+✅ Built using Streamlit, Google Gmail API, and **Hugging Face Transformers**
 
 ---
 
-## 📸 **Demo**
+## 📸 Demo
 
 ![Demo GIF or Screenshot](demo.gif)
 
 ---
 
-## 🛠️ **Installation**
+## 🛠️ Installation
 
-1. **Clone the repository**
+1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/email-summarizer-mcp.git
