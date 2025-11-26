@@ -12,7 +12,7 @@ A simple yet powerful Email Summarizer that connects directly to your Gmail inbo
 ✅ Authenticate securely with your Gmail  
 ✅ View your recent emails in the app  
 ✅ Summarize any email to extract key points instantly  
-✅ Built using Streamlit, Google Gmail API, and **Hugging Face Transformers**
+✅ Built using Streamlit, Google Gmail API, and Hugging Face Transformers
 
 ---
 
